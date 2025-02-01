@@ -37,33 +37,32 @@ vector_t *bad_vector_new() {
 
 /* Create a new vector with a size (length) of 1 and set its single component to zero... the
    right way */
-/* TODO: uncomment the code that is preceded by // */
 vector_t *vector_new() {
     /* Declare what this function will return */
-    // vector_t *retval;
+    vector_t *retval;
 
     /* First, we need to allocate memory on the heap for the struct */
-    // retval = /* YOUR CODE HERE */
+    retval = /* YOUR CODE HERE */
 
     /* Check our return value to make sure we got memory */
-    // if (/* YOUR CODE HERE */) {
-    //     allocation_failed();
-    // }
+    if (/* YOUR CODE HERE */) {
+        allocation_failed();
+    }
 
     /* Now we need to initialize our data.
        Since retval->data should be able to dynamically grow,
        what do you need to do? */
-    // retval->size = /* YOUR CODE HERE */;
-    // retval->data = /* YOUR CODE HERE */;
+    retval->size = /* YOUR CODE HERE */;
+    retval->data = /* YOUR CODE HERE */;
 
     /* Check the data attribute of our vector to make sure we got memory */
-    // if (/* YOUR CODE HERE */) {
-    //     free(retval);				//Why is this line necessary?
-    //     allocation_failed();
-    // }
+    if (/* YOUR CODE HERE */) {
+        free(retval);				//Why is this line necessary?
+        allocation_failed();
+    }
 
     /* Complete the initialization by setting the single component to zero */
-    // /* YOUR CODE HERE */ = 0;
+    /* YOUR CODE HERE */ = 0;
 
     /* and return... */
     return NULL; /* UPDATE RETURN VALUE */
