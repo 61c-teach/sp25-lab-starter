@@ -13,7 +13,7 @@ from PIL import ImageOps
 
 project_dir = Path(__file__).parent.resolve().parent
 tests_dir = project_dir / "tests"
-oracle_path = Path("/home/ff/cs61c/sp25/lab8/convolve_oracle")
+oracle_path = Path("/home/ff/cs61c/sp25/lab08/convolve_oracle")
 
 all_tests: Dict[str, "TestSpec"] = {}
 
