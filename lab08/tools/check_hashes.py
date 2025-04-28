@@ -6,14 +6,14 @@ import sys
 proj_dir_path = Path(__file__).parent.parent
 
 starter_file_hashes = {
-    "Makefile": "0df0e255c4ce668ff669291249752745",
+    "Makefile": "296362b8786f4fab3cdc1dbde4552006",
     "src/compute.h": "2517f5b78999da553924cc3bdc88d661",
     "src/coordinator.h": "66caa337c52639a200cd70bf881abb6b",
     "src/io.h": "eb5b4f402749bdd777a8c50caf01886f",
     "src/io.o": "3403f7d73dd3395457c5ce3673255938",
     "tools/check_output.sh": "90abd43257eb688aa86abecae04c68db",
     "tools/create_tests.py": "fbd72ce779c69a7c131889c5bfa1e398",
-    "tools/framework.py": "0bff4560eceec2e5937b5863f8081931",
+    "tools/framework.py": "a6ec09b1ef44cd17960c3457421451fe",
     "tools/results_to_gif.py": "990fba3042d1ba07718c0e240f31f14e",
     "tools/run_test.sh": "fd44999a528c848997de2cb07b12b6e9",
     "tools/staff_tests.py": "612da4e8eca918d2a5667748c6e4b191",

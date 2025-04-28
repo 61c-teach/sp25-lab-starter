@@ -17,14 +17,14 @@ Author: Anto Kam
 typedef __m256i vector;
 
 // Loads 8 integers at memory address A into a vector
-static inline vector vec_load(int32_t *A) {
+static inline vector vec_load(vector *A) {
   return _mm256_loadu_si256((vector*)A);
 }
 
 
 // Stores the vector at SRC to DST. Each vector element gets stored in a 
 // different index of the array passed into DST.
-static inline void vec_store(int32_t *dst, vector src) {
+static inline void vec_store(vector *dst, vector src) {
   _mm256_storeu_si256((vector*)dst, src);
 }
 
